@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    padding: 15px 45px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    /* Just needed roboto, but it is not working for me on chrome with ubuntu. */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.large-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.text-image {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 120px 5px;
+}
+
+.text-image-button button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 30px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 130px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 30px 0;
+}
+
+.card {
+    max-width: 160px;
+}
+
+.img {
+    min-height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.the-quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: light;
+}
+
+.quote-author {
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 20px;
+    padding-right: 45px;
+}
+
+.contact {
+    padding: 100px;
+    color: #f9faf8
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 30px 60px;
+}
+
+.call-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact .container button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    padding: 8px 30px;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 40px;
+    text-align: center;
+    color: #f9faf8;
+}
